@@ -1,0 +1,48 @@
+:root{
+    --primary-color: #0a1128;
+    --color-white: #FFFFFF;
+    --gap: 3rem;
+}
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2rem;
+    color:var(--primary-color);
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Montserrat',sans-serif;
+    text-transform: uppercase;
+}
+h1{
+    font-size: 6rem;
+}
+
+.main-background{
+    background-image: url('/assets/img/main-background.svg');
+    background-size: cover;
+    background-position: center center;
+    color:var(--color-white);
+}
+.white-background{
+    background-color:var(--color-white);
+}
+.main-content{
+    max-width: 1200px;
+    margin:0 auto;
+    padding: var(--gap);
+}
+
+.section{
+    min-height: 100vh;
+}
+
